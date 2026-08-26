@@ -1,0 +1,31 @@
+footer{
+
+    background: #111827;
+    color: white;
+    padding: 70px 8% 30px;
+}
+.footer-container{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 40px;
+}
+.footer-container h3,
+.footer-container h4{
+    margin-bottom: 20px;
+}
+.footer-container p{
+    margin: 10px 0;
+    color: #d1d5db;
+}
+hr{
+    margin: 40px 0 20px;
+    border: none;
+    height: 1px;
+    background: #374151;
+
+}
+.copyright{
+    text-align: center;
+    color: #9ca3af;
+}

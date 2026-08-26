@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+        <title>Login | BookingSaaS</title>
+
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    
+
+        <link rel="stylesheet" href="../assets/css/main.css">
+
+
+    </head>
+
+    <body>
+        <div class="login-container">
+            <div class="login-left">
+                <h1>BookingSaaS</h1>
+                <p>
+                    Book hotels, salons, doctors, restaurantsand more with one platform
+                </p>
+            </div>
+            <div class="login-right">
+                <form>
+                    <h2>Welcome Back 😉</h2>
+                    <p>Sign in to continue.</p>
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input
+                        type="email"
+                        placeholder="Enter your email">
+    
+                    </div>
+                    <div class="input-group">
+                        <label>Password</label>
+                        <div class="password-box">
+                            <input type="password"
+                            id="password"
+                            placeholder="Enter your password">
+
+                            <i class="fa-solid fa-eye" id="togglePassword"></i>
+                        </div>
+                    </div>
+
+                    <div class="option">
+                        <label>
+                            <input type="checkbox">
+                            Remember me
+                        </label>
+                        <a href="forgot-password.html">
+                            forgot-password?
+                        </a>
+                    </div>
+
+                    <button class="login-button">
+                        Login
+                    </button>
+                    <div class="divider">
+                        OR
+                    </div>
+                    <button type="button" class="google-btn">
+                        <i class="fa-brands fa-google"></i>
+                        Continue with Google
+                    </button>
+
+                    <p class="register-link">
+                        Don't have an account?
+                        <a href="../pages/register.html">
+                            Register
+                        </a>
+                    </p>
+        
+                </form>
+            </div>
+        </div>
+
+        <script src="js/auth.js"></script>
+
+    </body>
+
+</html>

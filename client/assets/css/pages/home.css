@@ -1,0 +1,487 @@
+/*==========
+HERO
+===========*/
+
+
+
+.hero{
+
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 10%;
+
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+
+    color: white;
+}
+
+.hero-content{
+
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero h1{
+
+    font-size: 70px;
+    line-height: 1.2px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.search-box{
+
+    background:white;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+    box-shadow: 0 20px 50px rgba(red, green, blue, alpha);
+    flex-wrap: wrap;
+}
+.input-box{
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+
+}
+
+.input-box label{
+
+    color:#111827;
+    margin-bottom: 8px;
+    font-weight: 600;
+
+}
+
+.input-box input,
+.input-box select{
+
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.search-btn{
+    background: #2563eb;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 3s;
+}
+
+.search-btn:hover{
+
+    background-image: #1d4ed8;
+    transform: translateY(-3px);
+}
+
+/*=============
+SERVICES
+===============*/
+
+
+
+.services{
+    padding: 100px 0;
+    background: #f8fafc;
+
+}
+.services h2{
+
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.services>p{
+    text-align: center;
+    color:#666;
+    margin-bottom: 50px;
+}
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-top: 50px;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+.card-content h3{
+    margin-bottom: 10px;
+
+}
+card-content p{
+    margin: 8px 0;
+    color: #2563eb;
+    margin: 20px 0;
+}
+.card button{
+    width: 100%;
+    padding: 15px;
+    background: #2563eb;
+    color: white;
+    border-radius: 10px;
+    transition: .3s;
+
+}
+.card button:hover{
+    background: #1d4ed8;
+}
+@media(max-width:900px){
+    .login-container{
+        grid-template-columns: 1fr;
+    }
+    .login-left{
+        display: none;
+
+    }
+    .login-right{
+        padding:30px;
+    }
+}
+
+/*==============
+FEATURES
+================*/
+
+
+
+.features{
+    padding: 100px 8%;
+    background: white;
+    text-align: center;
+}
+.features h2{
+    font-size: 42px;
+    margin-bottom:15px ;
+}
+.features{
+    color: #6b7280;
+    margin-bottom:60px ;
+}
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+}
+.feature-card{
+    background: #f8fafc;
+    padding:40px 30px;
+    border-radius: 18px;
+    transition: .3s;
+    box-shadow: 0 5px 20px rgba(red, green, blue,.08);
+}
+.feature-card:hover{
+    transform:translateY(-10px);
+}
+.icon{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.feature-card h3{
+    margin-bottom: 15px;
+}
+
+.feature-card p{
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+/*==========
+STATS
+============*/
+
+
+.stats{
+    background: #2563eb;
+    color: white;
+    padding: 80px 8%;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 30px;
+    text-align: center;
+}
+.stat-card{
+    padding: 20px;
+}
+.stat-card h2{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.stat-card p{
+    font-size: 18px;
+    opacity: .9;
+}
+
+/*===============
+DESTINATION
+=================*/
+
+
+.destinations{
+    padding: 100px 8%;
+    background: #f8fafc;
+    text-align: center;
+}
+.destination h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.destinations>p{
+    color: #6b7280;
+    margin-bottom: 60px;
+}
+.destination-container{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 30px;
+}
+.destination-card{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(red, green, blue, .08);
+    transition: .3s;
+}
+.destination-card:hover{
+    transform: translateY(-10px);
+}
+.destination-card img{
+    width:100%;
+    height:250px;
+    object-fit: cover;
+}
+.destination-info{
+    padding: 25px;
+}
+.destination-info h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+
+}
+.destination-info p{
+    color:#6b7280
+}
+
+/*==============
+TESTIMONIALS
+================*/
+
+
+.testimonials{
+    padding: 100px 8%;
+    text-align: center;
+    background: white;
+}
+.testimonials h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.testimonials>p{
+    color:#6b7280 ;
+    margin-bottom: 60px;
+}
+.testimonial-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 30px;
+}
+.testimonial-card{
+    background: #f8fafc;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(red, green, blue, alpha);
+    transition: .3s;
+}
+.testimonial-card:hover{
+    transform: translateY(-10px);
+}
+.testimonial-card img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.rating{
+    color: gold;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.testimonial-card p{
+    color: #6b7280;
+    line-height: 1.8;
+}
+
+/*===========
+CTA
+============*/
+
+
+
+.cta{
+    padding: 100px 8%;
+    text-align: center;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color: white;
+}
+.cta h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.cta p{
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+}
+.cta-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+/*===========
+Google Font
+=============*/
+
+
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+.primary-btn{
+    background: white;
+    color: #2563eb;
+    padding: 16px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+}
+.primary-btn:hover{
+    transform:translateY(-5px);
+}
+.secondary-btn{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+}
+.secondary-btn:hover{
+    background: white;
+    color:#2563eb
+}
+
+/*================
+SEARCH SECTION
+==================*/
+
+.search-section{
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.search-box{
+    max-width: 1100px;
+    margin:0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.08);
+    width: 100%;
+}
+.search-box h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+.search-box p{
+    text-align:center;
+    margin-bottom: 35px;
+    color: #111827;
+    font-size: 18px;
+}
+.search-form{
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.search-form input{
+    flex: 2;
+    min-width: 250px;
+    padding: 16px;
+}
+.search-form input,
+.search-form select{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+}
+.search-form input:focus,
+.search-form select:focus{
+    border-color: #2563eb;
+}
+.search-btn{
+    background: #2563eb;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 16px 35px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s;
+}
+.search-btn:hover{
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+@media(max-width:768px){
+    .search-form{
+        grid-template-columns: 1fr;
+    }
+    .search-box{
+        padding: 30px;
+    }
+    .search-box h2{
+        font-size: 32px;
+    }
+}
+
